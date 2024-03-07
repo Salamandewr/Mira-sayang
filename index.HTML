@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Romantis</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce3e3;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #romance-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+        }
+
+        #heart {
+            color: red;
+            font-size: 3em;
+            animation: heartbeat 1s infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="romance-container">
+        <h1>Selamat Datang mira sayaang emmmmuach</h1>
+        <p>Di sini, cinta selalu dalam suasana yang manis. ❤️</p>
+        <p id="heart">&hearts;</p>
+    </div>
+</body>
+</html>
